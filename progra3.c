@@ -12,7 +12,7 @@ int main(void)
 	/* if (warunek) ( blok jeśli  wyrazenie prawdziwe)
 	 else ( blok jeżeli wyrażenie fałszywe); */
 	
-	if(wybor == '*'){ /*sprawdza czy rowne to nie jest '=' */
+	if(wybor = '*'){ /*sprawdza czy rowne to nie jest '=' */
 			printf("Wynik mnożenia  %i\n", mnoz (a, b));
 		}else{
 			printf("wynik dodowania  %i\n", dodaj(a, b));
