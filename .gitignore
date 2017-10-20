@@ -1,4 +1,4 @@
 # ignoruj wszystkie pliki wykonywalne kompilacji
 
 *.o
-
+*.out
