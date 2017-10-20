@@ -1,4 +1,4 @@
-# ignoruj pliki wykonywalne
+# ignoruj wszystkie pliki wykonywalne kompilacji
 
 *.o
 

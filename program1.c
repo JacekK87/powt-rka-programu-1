@@ -7,7 +7,8 @@
 				/*puts - funkcja z biblioteki standardowej*/
 				/*automatycznie przechodzi do nowej lini*/
 	putchar('g');
-	putchar('\n'); /*znak konca lini*/
+	putchar('\n');
+	putchar('r'); /*znak konca lini*/
 	putchar('\t');/*tabulator*/	
 /*	putchar('\r');*//*powrót karetki - kursor powraca na poczatek lini*/
 	putchar('\\');/*wypisuje \*/
