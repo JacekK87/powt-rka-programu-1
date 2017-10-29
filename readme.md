@@ -17,7 +17,7 @@
 <p> <em> git log</em> - wyświetla cała historię zmian</p>
 <p> Jesli chcemy wrzucic to na serwer na github.com wpisujemy <em>git remote add origin https://github.com/JacekK87/powt-rka-programu-1.git</em> a nastepnie
 <em>  git push -u origin master</em>. Jeżeli juz raz to było robione to wpisujemy tylko <em>git push</em></p>
-<p> Na serwer nie wrzucamy pliku z rozszerzeniem  .o , aby tak robiło potrzeba utworzenia pliku o nazwie <strong> .gitignore</strong><em> touch .gitignore</em>. Jest to plik ukryty do programu. Po jego utworzeniu otwieramy go <em> nano .gitignore</em> i wpisujemy <strong> Unikaj wszystkie pliki z rozszerzeniem .o</strong> a nastepnie od nowego akapitu <em>*.o</em></p> 
+<p> Na serwer nie wrzucamy pliku z rozszerzeniem  .o , aby tak robiło potrzeba utworzenia pliku o nazwie <strong> .gitignore</strong><em> touch .gitignore</em>. Jest to plik ukryty do programu. Po jego utworzeniu otwieramy go <em> nano .gitignore</em> i wpisujemy <strong> Unikaj wszystkie pliki wykonalne kompilacji </strong> a nastepnie od nowego akapitu <em>*.o</em></p> 
 <p> Wpisujac <em> history</em> wyswietla nam to co bylo robione</p>
 <p> <em> clear</em> wykonuje czyszczenie konsloli</p>
 <p><em>	cd ..</em> nastepuje cofanie naszej aktualnej pozycji o jeden katalog</p>  
